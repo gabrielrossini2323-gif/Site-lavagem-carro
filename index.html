@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Wash - Estética Automotiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Premium Wash</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>O Tratamento que seu Veículo Merece</h1>
+            <p>Especialistas em estética automotiva de luxo.</p>
+            <a href="#servicos" class="btn-gold">Ver Planos</a>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="cards-container">
+            
+            <div class="card">
+                <h3>Lavagem Normal</h3>
+                <p class="price">R$ 40</p>
+                <ul>
+                    <li>Lavar</li>
+                    <li>Secar</li>
+                    <li>Pretinho</li>
+                </ul>
+                <button class="btn-book" onclick="agendar('Lavagem Normal')">Agendar</button>
+            </div>
+
+            <div class="card">
+                <h3>Lavagem Completa</h3>
+                <p class="price">R$ 50</p>
+                <ul>
+                    <li>Lavar</li>
+                    <li>Secar</li>
+                    <li>Pretinho</li>
+                    <li>Aspirar</li>
+                </ul>
+                <button class="btn-book" onclick="agendar('Lavagem Completa')">Agendar</button>
+            </div>
+
+            <div class="card highlight">
+                <h3>Completa com Cera</h3>
+                <p class="price">R$ 55</p>
+                <ul>
+                    <li>Lavar</li>
+                    <li>Secar</li>
+                    <li>Pretinho</li>
+                    <li>Aspirar</li>
+                    <li>Aplicação de Cera</li>
+                </ul>
+                <button class="btn-book" onclick="agendar('Lavagem Completa com Cera')">Agendar</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contato">
+        <p>&copy; 2026 Premium Wash. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
